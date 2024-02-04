@@ -1,0 +1,74 @@
+<template>
+	<name>mail</name>
+	<description>This is a mail template</description>
+	<block>
+		<type>text</type>
+		<name>h1</name>
+	</block>
+	<block>
+		<type>text</type>
+		<name>h2</name>
+	</block>
+	<block>
+		<type>action</type>
+		<name>button</name>
+	</block>
+	<block>
+		<type>image</type>
+		<name>thumbnail</name>
+	</block>
+	<rule>
+		<from>
+			<block>
+				<type>text</type>
+				<name>h1</name>
+			</block>
+		</from>
+		<to>
+			<block>
+				<type>text</type>
+				<name>h2</name>
+			</block>
+		</to>
+	</rule>
+	<layout dir="vertical">
+		<name>newsletter</name>
+		<section dir="vertical">
+			<block>
+				<type>text</type>
+				<name>h1</name>
+			</block>
+		</section>
+		<section dir="horizontal">
+			<block>
+				<type>text</type>
+				<name>p</name>
+			</block>
+			<block>
+				<type>image</type>
+				<name>thumbnail</name>
+			</block>
+		</section>
+		<section dir="vertical">
+			<block>
+				<type>image</type>
+				<name>full-image</name>
+			</block>
+			<block>
+				<type>text</type>
+				<name>p</name>
+			</block>
+		</section>
+	</layout>
+	<layout dir="vertical">
+		<name>internal email</name>
+		<block>
+			<type>text</type>
+			<name>h1</name>
+		</block>
+		<block>
+			<type>text</type>
+			<name>p</name>
+		</block>
+	</layout>
+</template>

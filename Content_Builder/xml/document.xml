@@ -1,0 +1,33 @@
+<document>
+    <title>My document</title>
+    <description>This is my first document</description>
+    <blocks>
+        <text>
+            <type>p</type>
+            <content>This is my first paragraph</content>
+        </text>
+        <text>
+            <type>p</type>
+            <content>This is my second paragraph</content>
+        </text>
+        <button>
+            <type>button</type>
+            <content>my button</content>
+        </button>
+    </blocks>
+    <blocks>
+        <text>
+            <type>p</type>
+            <content>This is my third paragraph</content>
+        </text>
+        <button>
+            <type>select</type>
+            <option>first option</option>
+            <option>second option</option>
+        </button>
+        <text>
+            <type>p</type>
+            <content>This is my fourth paragraph</content>
+        </text>
+    </blocks>
+</document>
